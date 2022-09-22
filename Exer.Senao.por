@@ -6,12 +6,15 @@ programa
 		inteiro idade
 		escreva ("Informe sua idade: ")
 		leia (idade)
-		se (idade > 80){ 
+		se (idade >= 80){ 
 			escreva ("Se cuida!")
-		}senao se (idade < 25){
-			escreva ("Tudo é temporário!", idade)
+		}senao se (idade >= 0 e idade<=25){
+			escreva ("Tudo é temporário!")
 		}senao se (idade == 40){
-			escreva ("Curta sua vida!!", idade)
+			escreva ("Curta sua evida!!")
+		}
+		senao {
+			escreva ("erro!!")
 		}
 			
 		}
